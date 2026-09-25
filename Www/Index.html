@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>tpaxepklick</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1 class="title">tpaxepklick</h1>
+
+    <div class="current">
+      <span class="current-label">Тело:</span>
+      <span id="currentBody" class="current-body">—</span>
+    </div>
+
+    <div class="bar-block">
+      <div class="bar-label">
+        сперма🥛 <span id="currentAmount">0</span>
+      </div>
+      <div class="bar">
+        <div id="barFill" class="bar-fill"></div>
+      </div>
+    </div>
+
+    <button id="mainBtn" class="main-btn">трахать👉👌</button>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="bodies">Тела</button>
+      <button class="tab" data-tab="stats">Статистика</button>
+    </div>
+
+    <div id="bodies" class="screen active">
+      <div id="bodyList" class="body-list"></div>
+    </div>
+
+    <div id="stats" class="screen">
+      <div id="statsList" class="stats-list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
